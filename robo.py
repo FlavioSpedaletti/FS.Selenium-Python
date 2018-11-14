@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from sys import stdin
 
-driver = webdriver.Chrome("C:\\Projetos\\Selenium-Python\\chromedriver.exe")
+driver = webdriver.Chrome("." + "\\chromedriver.exe")
 driver.get("http://www.python.org")
 assert "Python" in driver.title
 elem = driver.find_element_by_name("q")
