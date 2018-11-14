@@ -8,6 +8,7 @@ assert "Python" in driver.title
 elem = driver.find_element_by_name("q")
 elem.clear()
 
+# equivalente ao console.readline()
 stdin.readline()
 
 elem.send_keys("pycon")
